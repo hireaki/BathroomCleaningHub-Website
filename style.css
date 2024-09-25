@@ -146,8 +146,41 @@ a:hover {
     background-size: cover;
     background-position: center;
 
-    padding: 4rem;
+    padding: 5rem 4rem 7rem 4rem;
 }
+
+.three{
+    height: 20rem;
+
+    background-color: #f9f9f9;
+    background-image: url("images/bgthree.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    text-align: end;
+
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+}
+
+.four{
+    height: 10rem;
+
+    background-color: #37485a;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 h1.sub{
     color: #5ca4a9;
@@ -186,6 +219,17 @@ span{
     
 }
 
+h3.cleaningText{
+    margin: 1rem auto 0.1rem auto;
+}
+
+p.cleaningText{
+    color: #f9f9f9;
+    text-align: center;
+    padding: 0.1rem 2rem;
+    font-family: "Glacial";
+}
+
 .guides{
     
     height: 20rem;
@@ -210,4 +254,44 @@ img.link-img{
     border-radius: 25px;
 
 }
+
+.threeText{
+    margin-left: auto; 
+    margin-right: 3rem;
+}
+
+h1.threeText{
+    font-size: 4.8rem;
+    margin-top: 2rem;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+.fourImgLogo{
+    height: 5rem;
+    padding: 0.7rem 3rem;
+}
+
+.fourImg{
+    height: 1.5rem;
+    padding: 1.2rem 0.6em;
+}
+
+.navfooter{
+    padding: 1.2rem 0.6em;
+}
+
+a.navfooter, p{
+    color: #d8d8d8;
+    font-family: "Glacial";
+}
+
+hr{
+    width: 50rem;
+    border-color: #b6b6b6;
+}
+
 
