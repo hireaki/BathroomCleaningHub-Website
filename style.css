@@ -3,42 +3,211 @@
     padding: 0px;
 }
 
+@font-face {
+    font-family: 'Glacial';
+    src: url('fonts/GlacialIndifference-Regular.otf'); 
+  }
+
+  @font-face {
+    font-family: 'Glacial Bold';
+    src: url('fonts/GlacialIndifference-Bold.otf'); 
+  }
+
+  @font-face {
+    font-family: 'League';
+    src: url('fonts/LeagueSpartan-Bold.otf'); 
+  }
+
+
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
-p {
-    color: rgb(85, 85, 85);
+body{
+    margin: 0;
+    width: 100%;
 }
 
+
+h1{
+    color: #f9f9f9;
+    font-family: "League";
+    font-size: 6rem;
+    line-height: 1.1;
+    width: fit-content;
+}
+
+h2{
+    color: #f9f9f9;
+    font-family: "Glacial";
+    font-size: 1.6rem;
+    line-height: 1.1;
+    letter-spacing: 0.09em;
+    font-weight:normal;
+    width: fit-content;
+}
+
+h3{
+    color: #f9f9f9;
+    font-family: "League";
+    font-size: 1.2rem;
+    line-height: 1.1;
+    width: fit-content;
+}
+
+button, .button {
+    border: none;
+    border-radius: 50px;
+    padding: 16px 32px;
+    margin-top: 1rem;
+
+
+    background-color: #f6ae4e;
+    color: #f9f9f9;
+
+    font-size: 1rem;
+    font-family: "Glacial Bold";
+    text-align: center;
+
+    cursor: pointer;
+  }
+
+  .button:hover{
+    background-color: #d88e2c;
+  }
 /* nav */
 
-nav, 
-.nav-links {
+#desktop-nav{
+    padding: 0.2rem;
+    padding-right: 5rem;
+    padding-left: 1.5rem;
+    display: flex;
+    height: fit-content;
+    min-height: 3vh;
+}
+
+.logo{
+    justify-content: flex-start;
+    height: 4rem;
+    margin-right: auto;
+}
+
+nav, .nav-links {
     display: flex;
 }
 
 nav {
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     height: 17vh;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px 0 #00000033;
 }
 
 .nav-links {
-    gap: 2rem;
+    gap: 4rem;
     list-style:none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-family: "Glacial";
 }
 
 a {
-    color: black;
+    color: #5ca4a9;
     text-decoration: none;
-    text-decoration-color: white;
 }
 
 a:hover {
-    color: rgb(175, 145, 125);
-    text-decoration: underline;
-    text-underline-offset: 1rem;
-    text-decoration-color: rgb(181, 181, 181);
+    color: #f6ae4e;
 }
+
+/* nav */
+
+.one{
+    height: 30rem;
+
+    background-color: #f9f9f9;
+    background-image: url("images/bgone.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    padding-top: 6rem;
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+    
+}
+
+.two{
+    height: 30rem;
+
+    background-color: #f9f9f9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    padding: 4rem;
+}
+
+h1.sub{
+    color: #5ca4a9;
+    font-size: 3rem;
+    text-align: center;
+
+    margin: 0 auto;
+}
+
+h2.sub{
+    color: #38757a;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight:normal;
+
+    margin: 0 auto;
+
+}
+
+span{
+    color: #f6ae4e;
+}
+
+.link-container{
+    margin: 2rem auto;
+
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.guides, .products{
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    
+}
+
+.guides{
+    
+    height: 20rem;
+    width: 16rem;
+    border-radius: 25px;
+
+    background-color: #f6ae4e; 
+}
+
+.products{
+    
+    height: 20rem;
+    width: 16rem;
+    border-radius: 25px;
+
+    background-color: #5ca4a9;
+}
+
+img.link-img{
+    height: 13rem;
+    width: 16rem;
+    border-radius: 25px;
+
+}
+
