@@ -2,5 +2,7 @@ var ask = confirm("Would You Like To Subscribe To Our Newsletter?\n\nRecieve Upd
 
 if(ask == true){
     var email = prompt("Enter Your Email");
-    alert("Thank You For Subscribing!");
+    if(email != null){
+        alert("Thank You For Subscribing!");
+    }
 }
