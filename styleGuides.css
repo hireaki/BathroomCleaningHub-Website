@@ -119,6 +119,7 @@ main {
 .guide-container h2 {
     position: absolute;
     top: 10rem;
+    left: 1rem;
     font-size: 1.3rem;
     color: #f9f9f9;
     font-family: "Glacial Bold", sans-serif;
@@ -126,7 +127,7 @@ main {
 
 .guide-container p {
     position: absolute;
-    top: 13rem;
+    top: 15rem;
     padding-right: 1rem;
     font-weight: normal;
     text-align: left;
@@ -135,6 +136,7 @@ main {
     color: #f9f9f9;
     font-family: "Glacial", sans-serif;
 }
+/*footer*/
 
 p{
     margin: 0;
