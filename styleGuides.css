@@ -12,13 +12,9 @@
     font-family: 'League';
     src: url('fonts/LeagueSpartan-Bold.otf'); 
   }
-  @font-face {
-    font-family: 'Montserrat Regular';
-    src: url('fonts/montserrat.regular.ttf');
-  }
-  @font-face {
-    font-family: 'Montserrat Bold';
-    src: url('fonts/montserrat.bold.ttf');
+
+  body{
+    background-color: #37485a;
   }
 
 /* nav */
@@ -46,7 +42,7 @@ nav {
     align-items: center;
     height: 17vh;
     background-color: #f9f9f9;
-    box-shadow: 0 2px 4px 0 #00000033;
+    box-shadow: 0 2px 4px 0 #000000be;
 }
 
 .nav-links {
@@ -67,19 +63,23 @@ a:hover {
 
 /* nav */
 
+body{
+    margin: 0;
+}
+
 main {
-    max-width: 1100px;
-    margin: 2rem auto;
-    padding: 0 1rem;
-    
+    background-color: #f1f1f1;
+    margin: 0 auto;
+    padding: 3.5rem 12rem;
+    padding-bottom: 10rem;
 }
 
 .guides h1 {
-    font-weight: bold;
     text-transform: uppercase;
     font-size: 48px;
     text-align: center;
-    font-family: "Montserrat", sans-serif;
+    font-family: "League", sans-serif;
+    margin-top: 0;
 }
 .cleaning-word{
     color: teal;
@@ -119,85 +119,74 @@ main {
 .guide-container h2 {
     position: absolute;
     top: 10rem;
-    font-size: 17px;
-    margin: 1rem 0 0.5rem;
+    font-size: 1.3rem;
     color: #f9f9f9;
-    font-family: "Montserrat Bold", sans-serif;
+    font-family: "Glacial Bold", sans-serif;
 }
 
 .guide-container p {
     position: absolute;
-    bottom: 0px;
+    top: 13rem;
+    padding-right: 1rem;
     font-weight: normal;
     text-align: left;
+    margin: 0;
     font-size: 13px;
     color: #f9f9f9;
-    font-family: "Montserrat Regular", sans-serif;
+    font-family: "Glacial", sans-serif;
 }
 
-/*footer*/
-footer {    
-    position: relative;
-    background-color: #2C3E50;
-    padding: 50px 0;
-    text-align: center;
-    color: white;
+p{
+    margin: 0;
 }
 
-.newsletter {
+.upper{
+    padding-top: 2rem;
+}
+
+.footer{
+    height: 10rem;
+
+    background-color: #37485a;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    padding-top: 0.9rem;
+    padding-bottom: 4rem;
+
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 20px;
-    gap: 50px;
-}
-
-
-.newsletter-text {
-    max-width: 500px;
-    text-align: left;
-}
-
-.newsletter-text h2 {
-    position: absolute;
-    top: 10px;
-    left: 550px;
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 10px;
-    font-family: "Montserrat Bold", sans-serif;
-}
-
-.newsletter-text p {
-    font-size: 16px;
-    font-family: "Montserrat Regular", sans-serif;
-}
-
-.newsletter-form {
-    display: flex;
+    justify-content: center;
     flex-direction: column;
-    align-items:start;
-    gap: 10px;
+    align-items: center;
 }
 
-.newsletter-form input {
-    width: 300px;
-    padding: 8px;
-    border: none;
-    border-radius: 5px;
-    font-size: 14px;
+.icons{
+    display: flex;
+    justify-content: center;
 }
 
-.newsletter-form button {
-    background-color: #f6ae4e;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-family: "Montserrat Bold";
-    position: absolute;
-    right: 200px;
-    bottom: 25px;
+.fourImgLogo{
+    height: 5rem;
+    padding: 0.7rem 3rem;
+}
+
+.fourImg{
+    height: 1.5rem;
+    padding: 1.2rem 0.6em;
+}
+
+.navfooter{
+    padding: 1.2rem 0.6em;
+}
+
+a.navfooter, p{
+    color: #d8d8d8;
+    font-family: "Glacial";
+}
+
+hr{
+    width: 50rem;
+    margin: 0;
+    border-color: #b6b6b6;
 }

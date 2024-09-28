@@ -35,7 +35,6 @@ h1{
     font-family: "League";
     font-size: 6rem;
     line-height: 1.1;
-    width: fit-content;
 }
 
 h2,h4{
@@ -45,7 +44,6 @@ h2,h4{
     line-height: 1.1;
     letter-spacing: 0.03em;
     font-weight:normal;
-    width: fit-content;
 }
 
 h3{
@@ -142,20 +140,16 @@ a:hover {
     min-height:  12rem;
     max-height: 24rem;
     
-    padding: 4rem 15rem;
+    padding: 4rem 20vw;
     background-color: #f9f9f9;
 }
 
 .three{
     height:50rem;
-
     background-color: #38757a;
-
     text-align: end;
-
-    padding: 4rem 7rem;
+    padding: 4rem 5rem;
 }
-
 .footer{
     height: 10rem;
 
@@ -184,17 +178,17 @@ h1.sub{
 
 h2.sub{
     color: #5ca4a9;
-    font-size: 1.7rem;
+    font-size: 1.9vw;
     text-align: center;
     font-weight:normal;
 }
 
 h4.sub{
     color: #e9e8e8;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     text-align: center;
     font-weight:normal;
-
+    padding: 0 5vw;
     margin: 0 auto;
 }
 
@@ -208,6 +202,7 @@ span{
     margin: 2rem;
     display: flex;
     justify-content: space-evenly;
+    gap: 2remS;
 }
 
 .guides{
