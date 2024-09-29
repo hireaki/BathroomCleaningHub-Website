@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'Glacial';
+    src: url('../fonts/GlacialIndifference-Regular.otf'); 
+  }
+
+  @font-face {
+    font-family: 'Glacial Bold';
+    src: url('../fonts/GlacialIndifference-Bold.otf'); 
+  }
+
+  @font-face {
+    font-family: 'League';
+    src: url('../fonts/LeagueSpartan-Bold.otf'); 
+  }
+
+  body{
+    background-color: #37485a;
+  }
+
+/* nav */
+#desktop-nav{
+    padding: 0.2rem;
+    padding-right: 5rem;
+    padding-left: 1.5rem;
+    display: flex;
+    height: fit-content;
+    min-height: 3vh;
+}
+
+.logo{
+    justify-content: flex-start;
+    height: 4rem;
+    margin-right: auto;
+}
+
+nav, .nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: flex-end;
+    align-items: center;
+    height: 17vh;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px 0 #000000be;
+}
+
+.nav-links {
+    gap: 4rem;
+    list-style:none;
+    font-size: 1.2rem;
+    font-family: "Glacial";
+}
+
+a {
+    color: #5ca4a9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f6ae4e;
+}
+
+/* nav */
+
+body{
+    margin: 0;
+}
+
+main {
+    background-color: #f1f1f1;
+    margin: 0 auto;
+    padding: 3.5rem 15vw;
+    padding-bottom: 10rem;
+}
+
+
+
+
+.one{
+    display: flex;
+    flex-direction: row;
+}
+
+.products{
+    height: fit-content;
+    background-color: #5ca4a9;
+    
+    padding: 1.5rem;
+    border-radius: 20px;
+    margin-right: 4rem;
+}
+
+.pic img{
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 15rem;
+}
+
+.signif{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 15rem;
+    height: fit-content;
+}
+
+h1, h2, h3, .one p{
+    margin-bottom: 0;
+    letter-spacing: 0.1em;
+}
+
+h1, h2{
+    font-family: "League", sans-serif;
+}
+ h3, p{
+    font-family: "Glacial", sans-serif;
+    color: #37485a;
+ }
+
+h1{
+    color: #f6ae4e;
+    font-size: 3em;
+}
+
+h2{
+    color: #318287;
+    font-size: 2em;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+h4{
+    margin: 0;
+    margin-top: 0.5rem;
+    letter-spacing: 0.03em;
+    font-family: "League", sans-serif;
+    color: #f6ae4e;
+    font-size: 1em;
+    text-align: center;
+}
+
+.signif ul{
+    letter-spacing: 0.03em;
+    font-family: "Glacial", sans-serif;
+    color: #318287;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
+
+
+/*footer*/
+
+.footer p{
+    margin: 0;
+}
+
+.upper{
+    padding-top: 2rem;
+}
+
+.footer{
+    height: 10rem;
+
+    background-color: #37485a;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+.fourImgLogo{
+    height: 5rem;
+    padding: 0.7rem 3rem;
+}
+
+.fourImg{
+    height: 1.5rem;
+    padding: 1.2rem 0.6em;
+}
+
+.navfooter{
+    padding: 1.2rem 0.6em;
+}
+
+a.navfooter, .footer p{
+    color: #d8d8d8;
+    font-family: "Glacial";
+}
+
+hr{
+    width: 50rem;
+    margin: 0;
+    border-color: #b6b6b6;
+}

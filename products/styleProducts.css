@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'Glacial';
+    src: url('../fonts/GlacialIndifference-Regular.otf'); 
+  }
+
+  @font-face {
+    font-family: 'Glacial Bold';
+    src: url('../fonts/GlacialIndifference-Bold.otf'); 
+  }
+
+  @font-face {
+    font-family: 'League';
+    src: url('../fonts/LeagueSpartan-Bold.otf'); 
+  }
+
+  body{
+    background-color: #37485a;
+  }
+
+/* nav */
+#desktop-nav{
+    padding: 0.2rem;
+    padding-right: 5rem;
+    padding-left: 1.5rem;
+    display: flex;
+    height: fit-content;
+    min-height: 3vh;
+}
+
+.logo{
+    justify-content: flex-start;
+    height: 4rem;
+    margin-right: auto;
+}
+
+nav, .nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: flex-end;
+    align-items: center;
+    height: 17vh;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px 0 #000000be;
+}
+
+.nav-links {
+    gap: 4rem;
+    list-style:none;
+    font-size: 1.2rem;
+    font-family: "Glacial";
+}
+
+a {
+    color: #5ca4a9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f6ae4e;
+}
+
+/* nav */
+
+body{
+    margin: 0;
+}
+
+main {
+    background-color: #f1f1f1;
+    margin: 0 auto;
+    padding: 3.5rem 13vw;
+    padding-bottom: 10rem;
+}
+
+.guides h1 {
+    text-transform: uppercase;
+    font-size: 48px;
+    text-align: center;
+    font-family: "League", sans-serif;
+    margin-top: 0;
+}
+.cleaning-word{
+    color: teal;
+}
+.guide-word{
+    color: orange;
+}
+
+.guide-lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.guide-container {
+    position: relative;
+    background-color: #5CA4A9;
+    border-radius: 30px;
+    width: 178px;
+    height: 260px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.space{
+    margin-left: 0.6rem;
+}
+
+.guide-container img {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 14.2rem;
+    border-radius: 15px 15px 0 0;
+    border-radius: 30px;
+    border: 8px solid #ffffff;
+    
+}
+
+.guide-container h2 {
+    position: absolute;
+    top: 15rem;
+    text-align: center;
+    margin-right: 2rem;
+    font-size: 1.3rem;
+    color: #f9f9f9;
+    font-family: "Glacial Bold", sans-serif;
+}
+
+
+/*footer*/
+
+p{
+    margin: 0;
+}
+
+.upper{
+    padding-top: 2rem;
+}
+
+.footer{
+    height: 10rem;
+
+    background-color: #37485a;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+.fourImgLogo{
+    height: 5rem;
+    padding: 0.7rem 3rem;
+}
+
+.fourImg{
+    height: 1.5rem;
+    padding: 1.2rem 0.6em;
+}
+
+.navfooter{
+    padding: 1.2rem 0.6em;
+}
+
+a.navfooter, p{
+    color: #d8d8d8;
+    font-family: "Glacial";
+}
+
+hr{
+    width: 50rem;
+    margin: 0;
+    border-color: #b6b6b6;
+}
