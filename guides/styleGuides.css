@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Glacial';
-    src: url('fonts/GlacialIndifference-Regular.otf'); 
+    src: url('../fonts/GlacialIndifference-Regular.otf'); 
   }
 
   @font-face {
     font-family: 'Glacial Bold';
-    src: url('fonts/GlacialIndifference-Bold.otf'); 
+    src: url('../fonts/GlacialIndifference-Bold.otf'); 
   }
 
   @font-face {
     font-family: 'League';
-    src: url('fonts/LeagueSpartan-Bold.otf'); 
+    src: url('../fonts/LeagueSpartan-Bold.otf'); 
   }
 
   body{
@@ -70,7 +70,7 @@ body{
 main {
     background-color: #f1f1f1;
     margin: 0 auto;
-    padding: 3.5rem 12rem;
+    padding: 3.5rem 10vw;
     padding-bottom: 10rem;
 }
 
@@ -91,7 +91,6 @@ main {
 .guide-lists {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
     justify-content: space-around;
     gap: 30px;
 }
@@ -101,9 +100,13 @@ main {
     background-color: #5CA4A9;
     border-radius: 30px;
     width: 200px;
-    height: 280px;
-    padding: 2.5rem;
+    height: 230px;
+    padding: 2rem;
     text-align: center;
+}
+
+.space{
+    margin-left: 0.6rem;
 }
 
 .guide-container img {
@@ -118,24 +121,14 @@ main {
 
 .guide-container h2 {
     position: absolute;
-    top: 9rem;
-    left: 1rem;
+    top: 12rem;
+    text-align: center;
+    margin-right: 2rem;
     font-size: 1.3rem;
     color: #f9f9f9;
     font-family: "Glacial Bold", sans-serif;
 }
 
-.guide-container p {
-    position: absolute;
-    top: 16rem;
-    padding-right: 4rem;
-    font-weight: normal;
-    text-align: left;
-    margin: 0;
-    font-size: 13px;
-    color: #f9f9f9;
-    font-family: "Glacial", sans-serif;
-}
 /*footer*/
 
 p{
@@ -154,8 +147,8 @@ p{
     background-size: cover;
     background-position: center;
 
-    padding-top: 0.9rem;
-    padding-bottom: 4rem;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
 
     display: flex;
     justify-content: center;

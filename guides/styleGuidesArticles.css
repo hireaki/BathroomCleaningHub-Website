@@ -5,17 +5,17 @@
 
 @font-face {
     font-family: 'Glacial';
-    src: url('fonts/GlacialIndifference-Regular.otf'); 
+    src: url('../fonts/GlacialIndifference-Regular.otf'); 
   }
 
   @font-face {
     font-family: 'Glacial Bold';
-    src: url('fonts/GlacialIndifference-Bold.otf'); 
+    src: url('../fonts/GlacialIndifference-Bold.otf'); 
   }
 
   @font-face {
     font-family: 'League';
-    src: url('fonts/LeagueSpartan-Bold.otf'); 
+    src: url('../fonts/LeagueSpartan-Bold.otf'); 
   }
 
 
@@ -37,6 +37,10 @@ h1{
     font-size: 6rem;
     line-height: 1.1;
     width: fit-content;
+    text-align: center;
+    margin: auto;
+    
+    padding-top: 6.5vw;
 }
 
 h2{
@@ -78,21 +82,6 @@ button, .button {
     background-color: #d88e2c;
   }
 
-  /* bathtub */
-  .bathtub {
-    height: 17rem;
-    background-color: #f9f9f9;
-    background-repeat: no-repeat;
-    background-image:image-set("images/bathtub.png");
-    background-size: cover;
-    background-position: center;
-    padding-top: 6rem;
-    padding-left: 5rem;
-    padding-bottom: 3rem;
-  }
-
-  
-
   p.text1 {
     color: #37485a;
     font-size: 1.5rem;
@@ -111,139 +100,100 @@ button, .button {
 
   .one {
     justify-content: center;
-    margin-left: 400px; 
-    margin-right: 400px; 
+    width: 50vw;
+    margin: auto;
     border-radius: 4px; 
     background-color: rgb(242,249,249); 
-    padding: 18px; 
-    height: 90vh;
+    padding: 4vw 3vw; 
+    height: fit-content;
   } 
 
-  .one00 { /* for toiletbowl tiles drain */
-    justify-content: center;
-    margin-left: 400px; 
-    margin-right: 400px; 
-    border-radius: 4px; 
-    background-color: rgb(242,249,249); 
-    padding: 18px; 
-    height: 115vh;
-  } 
-
-  .one001 { /* for showerhead */
-    justify-content: center;
-    margin-left: 400px; 
-    margin-right: 400px; 
-    border-radius: 4px; 
-    background-color: rgb(242,249,249); 
-    padding: 18px; 
-    height: 118vh;
-  } 
-
-
-  .one1 { /* for guidesTips */
-    justify-content: center;
-    margin-left: 400px; 
-    margin-right: 400px; 
-    border-radius: 4px; 
-    background-color: rgb(242,249,249); 
-    padding: 18px; 
-    height: 320h;
-  } 
-
-  .one2 { /* for LifeHacks */
-    justify-content: center;
-    margin-left: 400px; 
-    margin-right: 400px; 
-    border-radius: 4px; 
-    background-color: rgb(242,249,249); 
-    padding: 18px; 
-    height: 320h;
-  } 
-  /* toiletbowl box */
-  .toiletbowl {
-    height: 17rem;
+   /* bathtub box*/
+   .bathtub {
+    height: 19rem;
     background-color: #f9f9f9;
     background-repeat: no-repeat;
-    background-image:image-set("images/toilet.png");
+    background-image:image-set("../images/bathtub.png");
     background-size: cover;
     background-position: center;
-    padding-top: 6rem;
-    padding-left: 5rem;
-    padding-bottom: 3rem;
+    padding: 2rem;
+  }
+
+  /* toiletbowl box */
+  .toiletbowl {
+    height: 23rem;
+    background-color: #f9f9f9;
+    background-repeat: no-repeat;
+    background-image:image-set("../images/toilet.png");
+    background-size: cover;
+    background-position: center;
+    padding: 3rem 2rem;
+    padding-bottom: 1rem;
   }
   /* tiles box*/
   .tiles {
-    height: 17rem;
+    height: 19rem;
     background-color: #f9f9f9;
     background-repeat: no-repeat;
-    background-image:image-set("images/tiles.png");
+    background-image:image-set("../images/tiles.png");
     background-size: cover;
     background-position: center;
-    padding-top: 6rem;
-    padding-left: 5rem;
-    padding-bottom: 3rem;
+    padding: 2rem;
   }
   /* mirrorglass box */
   .mirror {
-    height: 17rem;
+    height: 19rem;
     background-color: #f9f9f9;
     background-repeat: no-repeat;
-    background-image:image-set("images/mirror.png");
+    background-image:image-set("../images/mirror.png");
     background-size: cover;
     background-position: center;
-    padding-top: 6rem;
-    padding-left: 5rem;
-    padding-bottom: 3rem;
+    padding: 2rem;
   }
   /* showerhead box */
   .showerhead {
-    height: 17rem;
+    height: 23rem;
     background-color: #f9f9f9;
     background-repeat: no-repeat;
-    background-image:image-set("images/shower.png");
+    background-image:image-set("../images/shower.png");
     background-size: cover;
     background-position: center;
-    padding-top: 6rem;
-    padding-left: 5rem;
-    padding-bottom: 3rem;
+    padding: 1rem 2rem;
+    align-items: center;
   }
   /* drain box */
   .drain {
-    height: 17rem;
+    height: 19rem;
     background-color: #f9f9f9;
     background-repeat: no-repeat;
-    background-image:image-set("images/drain.png");
+    background-image:image-set("../images/drain.png");
     background-size: cover;
     background-position: center;
-    padding-top: 6rem;
-    padding-left: 5rem;
-    padding-bottom: 3rem;
+    padding: 2rem;
   }
 
 
   /* tips box */
   .tips {
-    height: 17rem;
+    height: 23rem;
     background-color: #f9f9f9;
     background-repeat: no-repeat;
-    background-image:image-set("images/tips.png");
+    background-image:image-set("../images/tips.png");
     background-size: cover;
     background-position: center;
-    padding-top: 6rem;
-    padding-left: 5rem;
-    padding-bottom: 3rem;
+    padding: 1rem 2rem;
+    align-items: center;
   }
   /* lifehacks box */
   .lifehacks {
-    height: 17rem;
+    height: 23rem;
     background-color: #f9f9f9;
     background-repeat: no-repeat;
-    background-image:image-set("images/life hacks.png");
+    background-image:image-set("../images/life hacks.png");
     background-size: cover;
     background-position: center;
-    padding-top: 6rem;
-    padding-left: 5rem;
-    padding-bottom: 3rem;
+    padding: 1rem 2rem;
+    align-items: center;
   }
 /* nav */
 
@@ -311,8 +261,8 @@ p{
     background-size: cover;
     background-position: center;
 
-    padding-top: 0.9rem;
-    padding-bottom: 4rem;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
 
     display: flex;
     justify-content: center;
