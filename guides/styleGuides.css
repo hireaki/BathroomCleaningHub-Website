@@ -68,6 +68,9 @@ body{
 }
 
 main {
+    -webkit-box-shadow: inset 0px 10px 10px -5px rgba(0,0,0,0.14);
+-moz-box-shadow: inset 0px 10px 10px -5px rgba(0,0,0,0.14);
+box-shadow: inset 0px 10px 10px -5px rgba(0,0,0,0.14);
     background-color: #f1f1f1;
     margin: 0 auto;
     padding: 3.5rem 12vw;
@@ -82,7 +85,7 @@ main {
     margin-top: 0;
 }
 .cleaning-word{
-    color: teal;
+    color: #008080;
 }
 .guide-word{
     color: orange;
@@ -104,6 +107,19 @@ main {
     padding: 2rem;
     text-align: center;
 }
+
+/* hover */
+.guide-container {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .guide-container:hover {
+    transform: translateY(-20px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3); 
+  }
+
+  /* hover */
 
 .space{
     margin-left: 0.6rem;
