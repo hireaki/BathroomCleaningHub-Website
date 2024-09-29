@@ -93,18 +93,73 @@ button, .button {
 
   
 
-  p {
-    color: #000000;
+  p.text1 {
+    color: #37485a;
     font-size: 1.5rem;
-    text-align: center;
+    text-align: left;
     margin: 0 auto;
+    max-width: 600px
+  }
+
+  p.citation {
+    color: #37485a;
+    font-size: 1rem;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px
   }
 
   .one {
-    background-color: rgb(112, 119, 122);
     justify-content: center;
+    margin-left: 400px; 
+    margin-right: 400px; 
+    border-radius: 4px; 
+    background-color: rgb(242,249,249); 
+    padding: 18px; 
+    height: 90vh;
   } 
-  /* toiletbowl */
+
+  .one00 { /* for toiletbowl tiles drain */
+    justify-content: center;
+    margin-left: 400px; 
+    margin-right: 400px; 
+    border-radius: 4px; 
+    background-color: rgb(242,249,249); 
+    padding: 18px; 
+    height: 115vh;
+  } 
+
+  .one001 { /* for showerhead */
+    justify-content: center;
+    margin-left: 400px; 
+    margin-right: 400px; 
+    border-radius: 4px; 
+    background-color: rgb(242,249,249); 
+    padding: 18px; 
+    height: 118vh;
+  } 
+
+
+  .one1 { /* for guidesTips */
+    justify-content: center;
+    margin-left: 400px; 
+    margin-right: 400px; 
+    border-radius: 4px; 
+    background-color: rgb(242,249,249); 
+    padding: 18px; 
+    height: 320h;
+  } 
+
+  .one2 { /* for LifeHacks */
+    justify-content: center;
+    margin-left: 400px; 
+    margin-right: 400px; 
+    border-radius: 4px; 
+    background-color: rgb(242,249,249); 
+    padding: 18px; 
+    height: 320h;
+  } 
+  /* toiletbowl box */
   .toiletbowl {
     height: 17rem;
     background-color: #f9f9f9;
@@ -116,7 +171,7 @@ button, .button {
     padding-left: 5rem;
     padding-bottom: 3rem;
   }
-  /* tiles*/
+  /* tiles box*/
   .tiles {
     height: 17rem;
     background-color: #f9f9f9;
@@ -128,7 +183,7 @@ button, .button {
     padding-left: 5rem;
     padding-bottom: 3rem;
   }
-  /* mirrorglass */
+  /* mirrorglass box */
   .mirror {
     height: 17rem;
     background-color: #f9f9f9;
@@ -140,7 +195,7 @@ button, .button {
     padding-left: 5rem;
     padding-bottom: 3rem;
   }
-  /* showerhead */
+  /* showerhead box */
   .showerhead {
     height: 17rem;
     background-color: #f9f9f9;
@@ -152,7 +207,7 @@ button, .button {
     padding-left: 5rem;
     padding-bottom: 3rem;
   }
-  /* drain */
+  /* drain box */
   .drain {
     height: 17rem;
     background-color: #f9f9f9;
@@ -166,7 +221,7 @@ button, .button {
   }
 
 
-  /* tips */
+  /* tips box */
   .tips {
     height: 17rem;
     background-color: #f9f9f9;
@@ -178,7 +233,7 @@ button, .button {
     padding-left: 5rem;
     padding-bottom: 3rem;
   }
-  /* lifehacks */
+  /* lifehacks box */
   .lifehacks {
     height: 17rem;
     background-color: #f9f9f9;
@@ -193,6 +248,7 @@ button, .button {
 /* nav */
 
 #desktop-nav{
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px 4px rgba(0,0,0,0.1);
     padding: 0.2rem;
     padding-right: 5rem;
     padding-left: 1.5rem;
