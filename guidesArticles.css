@@ -83,7 +83,7 @@ button, .button {
     height: 17rem;
     background-color: #f9f9f9;
     background-repeat: no-repeat;
-    background-image: url();
+    background-image:image-set("images/bathtub.png");
     background-size: cover;
     background-position: center;
     padding-top: 6rem;
@@ -164,7 +164,7 @@ button, .button {
     height: 17rem;
     background-color: #f9f9f9;
     background-repeat: no-repeat;
-    background-image: url();
+    background-image:image-set("images/toilet.png");
     background-size: cover;
     background-position: center;
     padding-top: 6rem;
@@ -176,7 +176,7 @@ button, .button {
     height: 17rem;
     background-color: #f9f9f9;
     background-repeat: no-repeat;
-    background-image: url();
+    background-image:image-set("images/tiles.png");
     background-size: cover;
     background-position: center;
     padding-top: 6rem;
@@ -188,7 +188,7 @@ button, .button {
     height: 17rem;
     background-color: #f9f9f9;
     background-repeat: no-repeat;
-    background-image: url();
+    background-image:image-set("images/mirror.png");
     background-size: cover;
     background-position: center;
     padding-top: 6rem;
@@ -200,7 +200,7 @@ button, .button {
     height: 17rem;
     background-color: #f9f9f9;
     background-repeat: no-repeat;
-    background-image: url();
+    background-image:image-set("images/shower.png");
     background-size: cover;
     background-position: center;
     padding-top: 6rem;
@@ -212,7 +212,7 @@ button, .button {
     height: 17rem;
     background-color: #f9f9f9;
     background-repeat: no-repeat;
-    background-image: url();
+    background-image:image-set("images/drain.png");
     background-size: cover;
     background-position: center;
     padding-top: 6rem;
@@ -226,7 +226,7 @@ button, .button {
     height: 17rem;
     background-color: #f9f9f9;
     background-repeat: no-repeat;
-    background-image: url();
+    background-image:image-set("images/tips.png");
     background-size: cover;
     background-position: center;
     padding-top: 6rem;
@@ -238,7 +238,7 @@ button, .button {
     height: 17rem;
     background-color: #f9f9f9;
     background-repeat: no-repeat;
-    background-image: url();
+    background-image:image-set("images/life hacks.png");
     background-size: cover;
     background-position: center;
     padding-top: 6rem;
