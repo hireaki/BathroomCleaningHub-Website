@@ -96,12 +96,14 @@ main {
 }
 
 .guide-container {
-    position: relative;
+    position: flex;
+    flex-direction: column;
     background-color: #5CA4A9;
     border-radius: 30px;
     width: 178px;
-    height: 260px;
+    height: 290px;
     padding: 2rem;
+    padding-top: 0;
     text-align: center;
 }
 
@@ -110,8 +112,8 @@ main {
 }
 
 .guide-container img {
-    position: absolute;
     right: 0px;
+    margin-left: -2rem;
     top: 0px;
     width: 14.2rem;
     border-radius: 15px 15px 0 0;
@@ -121,12 +123,11 @@ main {
 }
 
 .guide-container h2 {
-    position: absolute;
-    top: 15rem;
+    top: 12rem;
     text-align: center;
-    margin-right: 2rem;
     font-size: 1.3rem;
     color: #f9f9f9;
+    margin-top: .5rem;
     font-family: "Glacial Bold", sans-serif;
 }
 
