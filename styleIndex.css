@@ -5,17 +5,17 @@
 
 @font-face {
     font-family: 'Glacial';
-    src: url('../fonts/GlacialIndifference-Regular.otf'); 
+    src: url('fonts/GlacialIndifference-Regular.otf'); 
   }
 
   @font-face {
     font-family: 'Glacial Bold';
-    src: url('../fonts/GlacialIndifference-Bold.otf'); 
+    src: url('fonts/GlacialIndifference-Bold.otf'); 
   }
 
   @font-face {
     font-family: 'League';
-    src: url('../fonts/LeagueSpartan-Bold.otf'); 
+    src: url('fonts/LeagueSpartan-Bold.otf'); 
   }
 
 
@@ -131,7 +131,7 @@ box-shadow: inset 0px 10px 10px -5px rgba(0,0,0,0.14);
     height: 30rem;
 
     background-color: #f9f9f9;
-    background-image: url("../images/bgone.png");
+    background-image: url("images/bgone.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -157,7 +157,7 @@ box-shadow: inset 0px 10px 10px -5px rgba(0,0,0,0.14);
     height: 20rem;
 
     background-color: #f9f9f9;
-    background-image: url("../images/bgthree.png");
+    background-image: url("images/bgthree.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
