@@ -4,7 +4,7 @@ if (!localStorage.getItem("subscribed")) {
     if (ask) {
         var email = prompt("Enter Your Email");
         if (email != null) {
-            alert("Thank You For Subscribing!");
+            alert("Email: " + email + "\nThank You For Subscribing!");
             localStorage.setItem("subscribed", true); // Store the flag so the alert doesn't show again
         }
     }
