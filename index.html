@@ -2,8 +2,11 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X UA-compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HOME</title>
         <link rel="stylesheet" href="styleIndex.css">
+        <link rel="stylesheet" href="mediaqueries.css">
         <script src="scriptIndex.js"></script>
     </head>
     <body>
@@ -22,6 +25,22 @@
                 </ul>
             </div>
         </nav>
+        <nav id="hamburger-nav">
+            <a class="logo" href="index.html"><img class="logo" src="images/logo.png"></a>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="index.html" onclick="toggleMenu()">HOME</a></li> 
+                    <li><a href="about/about.html" onclick="toggleMenu()">ABOUT US</a></li> 
+                    <li><a href="guides/guides.html" onclick="toggleMenu()">GUIDES</a></li> 
+                    <li><a href="products/products.html" onclick="toggleMenu()">PRODUCTS</a></li>
+                 </div>
+             </div>
+         </nav>
         <!--NAV -->
 
 
