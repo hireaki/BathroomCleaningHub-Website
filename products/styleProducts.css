@@ -69,11 +69,11 @@ body{
 
 main {
     -webkit-box-shadow: inset 0px 10px 10px -5px rgba(0,0,0,0.14);
--moz-box-shadow: inset 0px 10px 10px -5px rgba(0,0,0,0.14);
-box-shadow: inset 0px 10px 10px -5px rgba(0,0,0,0.14);
+    -moz-box-shadow: inset 0px 10px 10px -5px rgba(0,0,0,0.14);
+    box-shadow: inset 0px 10px 10px -5px rgba(0,0,0,0.14);
     background-color: #f1f1f1;
     margin: 0 auto;
-    padding: 3.5rem 13vw;
+    padding: 3.5rem 12vw;
     padding-bottom: 10rem;
 }
 
@@ -129,12 +129,11 @@ box-shadow: inset 0px 10px 10px -5px rgba(0,0,0,0.14);
 
 .guide-container img {
     right: 0px;
-    margin-left: -2rem;
+    margin-left: -2.5rem;
     top: 0px;
     width: 14.8rem;
-    border-radius: 15px 15px 0 0;
     border-radius: 30px;
-    border: 8px solid #ffffff;
+    border: 11.5px solid #ffffff;
     
 }
 
