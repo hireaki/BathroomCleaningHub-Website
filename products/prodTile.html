@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <title>Tile & Grout Cleaner</title>
         <link rel="stylesheet" href="styleProductsIndiv.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="scriptProducts.js"></script>
     </head>
     <body>
 
@@ -19,6 +21,24 @@
                     <li><a href="../guides/guides.html">GUIDES</a></li>
                     <li><a href="../products/products.html">PRODUCTS</a></li>
                 </ul>
+            </div>
+
+            <div class="search-container">
+                <input type="text" id="search-bar" name = "q" placeholder="Search" />
+                <div id="qResults"></div>
+            </div>
+
+            <div class="cart-container">
+                <div id="cart-button">
+                    <img src="../images/cart1.PNG" id="cart-img">
+                </div>
+            </div>
+
+            <div class="cart-item-container">
+                <div class="cart-header">YOUR CART
+                    <p class = "cart-p">Click the product name to redirect to store</p>
+                </div>
+                <div class="cart-items"></div>
             </div>
         </nav>
         <!--NAV -->
@@ -58,8 +78,10 @@
 
                 <div class="description">
                     <h1>TILE & GROUT CLEANER</h1>
-                    <h3> Grout / Tiles cleaner chemicals are a bit acidic, it is a specialized water-based solutions that ensure deep cleaning of multiple surfaces.These remove dirt, water stains, and old & stubborn residues to restore the original shine and appearance of the tiles.
+                    <h3> Tile & grout cleaner chemicals are a bit acidic, it is a specialized water-based solutions that ensure deep cleaning of multiple surfaces.These remove dirt, water stains, and old & stubborn residues to restore the original shine and appearance of the tiles.
                     </h3>
+                    <br>
+                    <button class="add-to-cart-btn" data-name="Tile & Grout Cleaner" data-url="https://shopee.ph/search?facet=11021197&filters=5&keyword=tile%20and%20grout%20cleaner&noCorrection=true&page=0"><b>ADD TO CART</b></button> 
                     <br>
                     <h2>PROPER USAGE & DISPOSAL</h2>
                     <p> For a minor spot, start with mixing a tile cleaner with water for the product to take better effect. Use a clean cloth to dip in the solution and rub the tile gently to remove spots. Dilute two full caps of the tile cleaner in half a bucket of water. It preserves the natural color of the tiles and prevents any grease, oil, or dust build-up.

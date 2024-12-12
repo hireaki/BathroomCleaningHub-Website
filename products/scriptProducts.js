@@ -1,21 +1,21 @@
 $(document).ready(function () {
     var data = [
-        {"text": "Air Freshener", "href": "products/prodAir.html"},
-        {"text": "All-Purpose Cleaner", "href": "products/prodAllpurpose.html"},
-        {"text": "Bath Tub Cleaner", "href": "products/prodBathTub.html"},
-        {"text": "Disinfectant", "href": "products/prodDisinfectant.html"},
-        {"text": "Drain Cleaner", "href": "products/prodDrain.html"},
-        {"text": "Tile & Grout Cleaner", "href": "products/prodTile.html"},
-        {"text": "Toilet Bowl Cleaner", "href": "products/prodToilet.html"},
-        {"text": "Window Cleaner", "href": "products/prodWindow.html"},
-        {"text": "Bathroom Cleaning Life Hacks", "href": "guides/guidesLifeHacks.html"},
-        {"text": "How To Clean a Bathtub", "href": "guides/guidesBathtub.html"},
-        {"text": "How To Clean a Drain", "href": "guides/guidesDrain.html"},
-        {"text": "How To Clean a Mirror", "href": "guides/guidesMirror.html"},
-        {"text": "How To Clean a Shower Head", "href": "guides/guidesShowerhead.html"},
-        {"text": "How To Clean Tiles", "href": "guides/guidesTiles.html"},
-        {"text": "How To Clean a Toilet Bowl", "href": "guides/guideToiletBowl.html"},
-        {"text": "Tips for Cleaning your Bathroom", "href": "guides/guidesTips.html"}
+        {"text": "Air Freshener", "href": "../products/prodAir.html"},
+        {"text": "All-Purpose Cleaner", "href": "../products/prodAllpurpose.html"},
+        {"text": "Bath Tub Cleaner", "href": "../products/prodBathTub.html"},
+        {"text": "Disinfectant", "href": "../products/prodDisinfectant.html"},
+        {"text": "Drain Cleaner", "href": "../products/prodDrain.html"},
+        {"text": "Tile & Grout Cleaner", "href": "../products/prodTile.html"},
+        {"text": "Toilet Bowl Cleaner", "href": "../products/prodToilet.html"},
+        {"text": "Window Cleaner", "href": "../products/prodWindow.html"},
+        {"text": "Bathroom Cleaning Life Hacks", "href": "../guides/guidesLifeHacks.html"},
+        {"text": "How To Clean a Bathtub", "href": "../guides/guidesBathtub.html"},
+        {"text": "How To Clean a Drain", "href": "../guides/guidesDrain.html"},
+        {"text": "How To Clean a Mirror", "href": "../guides/guidesMirror.html"},
+        {"text": "How To Clean a Shower Head", "href": "../guides/guidesShowerhead.html"},
+        {"text": "How To Clean Tiles", "href": "../guides/guidesTiles.html"},
+        {"text": "How To Clean a Toilet Bowl", "href": "../guides/guideToiletBowl.html"},
+        {"text": "Tips for Cleaning your Bathroom", "href": "../guides/guidesTips.html"}
     ];
 
 
@@ -55,13 +55,11 @@ $(document).ready(function () {
 
     let cart = [];
 
-        // Load cart from localStorage on page load
         if (localStorage.getItem('cartItems')) {
             cart = JSON.parse(localStorage.getItem('cartItems'));
             updateCart();
         }
 
-        // Toggle cart visibility
         $('#cart-button').click(function () {
             $('.cart-item-container').toggle();
         });
@@ -69,22 +67,18 @@ $(document).ready(function () {
         $('.add-to-cart-btn').click(function () {
             const name = $(this).data('name');
             const url = $(this).data('url');
-        
-            // Check if the item is already in the cart
+
             const itemExists = cart.some(item => item.name === name);
             if (itemExists) {
                 alert(`${name} is already in the cart!`);
                 return;
             }
-        
-            // Add the item if it doesn't exist in the cart
+
             cart.push({name, url});
             saveCart();
             updateCart();
         });
-        
 
-        // Update cart UI
         function updateCart() {
             const cartItemsContainer = $('.cart-items');
             cartItemsContainer.empty();
@@ -102,15 +96,13 @@ $(document).ready(function () {
             $('.cart-total').text(`$${total.toFixed(2)}`);
         }
 
-        // Save cart to localStorage
         function saveCart() {
             localStorage.setItem('cartItems', JSON.stringify(cart));
         }
 
-        // Remove item from cart
         $(document).on('click', '.cart-item button', function () {
             const index = $(this).data('index');
-            cart.splice(index, 1); // Remove item at the specified index
+            cart.splice(index, 1);
             saveCart();
             updateCart();
         });

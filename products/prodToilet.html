@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <title>Toilet Bowl Cleaner</title>
         <link rel="stylesheet" href="styleProductsIndiv.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="scriptProducts.js"></script>
     </head>
     <body>
 
@@ -20,6 +22,24 @@
                     <li><a href="../products/products.html">PRODUCTS</a></li>
                 </ul>
             </div>
+
+            <div class="search-container">
+                <input type="text" id="search-bar" name = "q" placeholder="Search" />
+                <div id="qResults"></div>
+            </div>
+
+            <div class="cart-container">
+                <div id="cart-button">
+                    <img src="../images/cart1.PNG" id="cart-img">
+                </div>
+                <div class="cart-item-container">
+                    <div class="cart-header">YOUR CART
+                        <p class="cart-p">Click the product name to redirect to store</p>
+                    </div>
+                    <div class="cart-items"></div>
+                </div>
+            </div>
+            
         </nav>
         <!--NAV -->
         
@@ -59,6 +79,8 @@
                 <div class="description">
                     <h1>TOILET BOWL CLEANER</h1>
                     <h3> Toilet Bowl Cleaner is an effective stain remover that can remove dirt, rust, and urinals. It is available in different forms, including liquids, foams, and powders. By consistently disinfecting and cleaning your toilet, you can stop the spread of germs and bacteria, maintain a clean bathroom, and prevent buildup of stains.</h3>
+                    <br>
+                    <button class="add-to-cart-btn" data-name="Toilet Bowl Cleaner" data-url="https://shopee.ph/search?filters=5&keyword=toilet%20bowl%20cleaner&noCorrection=true&page=0"><b>ADD TO CART</b></button> 
                     <br>
                     <h2>PROPER USAGE & DISPOSAL</h2>
                     <p> The first step in using the Toilet Bowl Cleaner is to pour the right amount of the product inside the toilet bowl surface, then leave the solution to react for a few minutes, after that be sure to brush the bowl well to remove the dirt or stains, lastly is to flush and rinse with water.

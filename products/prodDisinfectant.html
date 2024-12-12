@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <title>Disinfectant</title>
         <link rel="stylesheet" href="styleProductsIndiv.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="scriptProducts.js"></script>
     </head>
     <body>
 
@@ -20,6 +22,24 @@
                     <li><a href="../products/products.html">PRODUCTS</a></li>
                 </ul>
             </div>
+
+            <div class="search-container">
+                <input type="text" id="search-bar" name = "q" placeholder="Search" />
+                <div id="qResults"></div>
+            </div>
+
+            <div class="cart-container">
+                <div id="cart-button">
+                    <img src="../images/cart1.PNG" id="cart-img">
+                </div>
+            </div>
+
+            <div class="cart-item-container">
+                <div class="cart-header">YOUR CART
+                    <p class = "cart-p">Click the product name to redirect to store</p>
+                </div>
+                <div class="cart-items"></div>
+            </div>
         </nav>
         <!--NAV -->
         
@@ -35,11 +55,11 @@
                         <h4>Significant Ingredients</h4>
                         <ul>
                             <li>Quaternary Ammonium Compounds (<i>Surfactant</i>)</li>
-<li>Bleach (<i>Oxidizing agent</i>)</li>
-<li>Hydrogen Peroxide Alcohol (<i>Antiseptic</i>)</li>
-<li>Phenolic Compounds (<i>Disinfectant</i>)</li>
-<li>Surfactants (<i>Surface-active</i>)</li>
-<li>Fragrance (<i>Cosmetic additive</i>)</li>
+                            <li>Bleach (<i>Oxidizing agent</i>)</li>
+                            <li>Hydrogen Peroxide Alcohol (<i>Antiseptic</i>)</li>
+                            <li>Phenolic Compounds (<i>Disinfectant</i>)</li>
+                            <li>Surfactants (<i>Surface-active</i>)</li>
+                            <li>Fragrance (<i>Cosmetic additive</i>)</li>
 
                         </ul>
                     </div>
@@ -48,12 +68,12 @@
                         <h4>Health-Related Risks</h4>
                         <ul>
                             <li>Respiratory irritation</li>
-<li>Skin irritation</li>
-<li>Eye irritation</li>
-<li>Chemical burns</li>
-<li>Allergic reactions</li>
-<li>Long-term exposure risks (e.g., chronic respiratory issues)</li>
-<li>Flammability risks (fire hazard near open flames or heat)</li>
+                            <li>Skin irritation</li>
+                            <li>Eye irritation</li>
+                            <li>Chemical burns</li>
+                            <li>Allergic reactions</li>
+                            <li>Long-term exposure risks (e.g., chronic respiratory issues)</li>
+                            <li>Flammability risks (fire hazard near open flames or heat)</li>
 
                         </ul>
                     </div>
@@ -62,6 +82,8 @@
                 <div class="description">
                     <h1>DISINFECTANT</h1>
                     <h3> A disinfectant is a chemical substance or compound used to inactivate or destroy microorganisms on inert surfaces. Disinfection does not necessarily kill all microorganisms, especially resistant bacterial spores; it is less effective than sterilization, which is an extreme physical or chemical process that kills all types of life.</h3>
+                    <br>
+                    <button class="add-to-cart-btn" data-name="Disinfectant" data-url="https://shopee.ph/search?filters=5&keyword=disinfectant&noCorrection=true&page=0"><b>ADD TO CART</b></button> 
                     <br>
                     <h2>PROPER USAGE & DISPOSAL</h2>
                     <p> Step 1: Check that your product is EPA-approved Find the EPA registration number on the product. Then, check to see if it is on EPA’s list of approved disinfectants at: epa.gov/listn Step 2: Read the directions and follow the product’s directions. Check “use sites” and “surface types” to see where you can use the product. 
