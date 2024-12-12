@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <title>Air Freshener</title>
         <link rel="stylesheet" href="styleProductsIndiv.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="scriptProducts.js"></script>
     </head>
     <body>
 
@@ -20,7 +22,25 @@
                     <li><a href="../products/products.html">PRODUCTS</a></li>
                 </ul>
             </div>
+
+            <div class="search-container">
+                <input type="text" id="search-bar" name = "q" placeholder="Search" />
+                <div id="qResults"></div>
+            </div>
+
+            <div class="cart-container">
+                <div id="cart-button">
+                    <img src="../images/cart1.PNG" id="cart-img">
+                </div>
+            </div>
         </nav>
+
+        <div class="cart-item-container">
+            <div class="cart-header">YOUR CART
+                <p class = "cart-p">Click the product name to redirect to store</p>
+            </div>
+            <div class="cart-items"></div>
+        </div>
         <!--NAV -->
         
     <main>
@@ -47,13 +67,13 @@
                         <h4>Health-Related Risks</h4>
                         <ul>
                             <li>Respiratory irritation</li>
-<li>Allergic reactions</li>
-<li>Skin irritation</li>
-<li>Eye irritation</li>
-<li>Headaches or dizziness</li>
-<li>Hormonal disruption (from phthalates)</li>
-<li>Long-term exposure risks (e.g., asthma, respiratory issues)</li>
-<li>Toxicity if ingested</li>
+                            <li>Allergic reactions</li>
+                            <li>Skin irritation</li>
+                            <li>Eye irritation</li>
+                            <li>Headaches or dizziness</li>
+                            <li>Hormonal disruption (from phthalates)</li>
+                            <li>Long-term exposure risks (e.g., asthma, respiratory issues)</li>
+                            <li>Toxicity if ingested</li>
 
                         </ul>
                     </div>
@@ -62,6 +82,8 @@
                 <div class="description">
                     <h1>AIR FRESHENER</h1>
                     <h3> Air fresheners are products designed to reduce unwanted odors in indoor spaces, or to introduce pleasant fragrances, or both. They typically emit fragrance to mask odors but may use other methods of action such as absorbing, bonding to, or chemically altering compounds in the air that produce smells, killing organisms that produce smells, or disrupting the sense of smell to reduce perception of unpleasant smells.</h3>
+                    <br>
+                    <button class="add-to-cart-btn" data-name="Air Freshener" data-url="https://shopee.ph/search?filters=5&keyword=air%20freshener&noCorrection=true&page=0"><b>ADD TO CART</b></button> 
                     <br>
                     <h2>PROPER USAGE & DISPOSAL</h2>
                     <p> For air fresheners to be effective, they must be placed strategically and used in conjunction with proper ventilation. One factor that affects the effectiveness of air fresheners is air circulation. Good air circulation helps to distribute the fragrance throughout the room, ensuring a pleasant scent in all areas. 
