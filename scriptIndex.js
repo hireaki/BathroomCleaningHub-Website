@@ -34,9 +34,7 @@ $(document).ready(function () {
         } else {
             $("#qResults").hide();
         }
-<<<<<<< Updated upstream
-    }
-}
+    });
 
 function toggleMenu() {
     const menu = document.querySelector(".menu-links");
@@ -44,8 +42,6 @@ function toggleMenu() {
     menu.classList.toggle("open")
     icon.classList.toggle("open")
 }
-=======
-    });
 
     
 
@@ -66,13 +62,11 @@ function toggleMenu() {
 
     let cart = [];
 
-        // Load cart from localStorage on page load
         if (localStorage.getItem('cartItems')) {
             cart = JSON.parse(localStorage.getItem('cartItems'));
             updateCart();
         }
 
-        // Toggle cart visibility
         $('#cart-button').click(function () {
             $('.cart-item-container').toggle();
         });
@@ -81,21 +75,18 @@ function toggleMenu() {
             const name = $(this).data('name');
             const url = $(this).data('url');
         
-            // Check if the item is already in the cart
             const itemExists = cart.some(item => item.name === name);
             if (itemExists) {
                 alert(`${name} is already in the cart!`);
                 return;
             }
         
-            // Add the item if it doesn't exist in the cart
             cart.push({name, url});
             saveCart();
             updateCart();
         });
         
 
-        // Update cart UI
         function updateCart() {
             const cartItemsContainer = $('.cart-items');
             cartItemsContainer.empty();
@@ -113,18 +104,15 @@ function toggleMenu() {
             $('.cart-total').text(`$${total.toFixed(2)}`);
         }
 
-        // Save cart to localStorage
         function saveCart() {
             localStorage.setItem('cartItems', JSON.stringify(cart));
         }
 
-        // Remove item from cart
         $(document).on('click', '.cart-item button', function () {
             const index = $(this).data('index');
-            cart.splice(index, 1); // Remove item at the specified index
+            cart.splice(index, 1); 
             saveCart();
             updateCart();
         });
 
 });
->>>>>>> Stashed changes
