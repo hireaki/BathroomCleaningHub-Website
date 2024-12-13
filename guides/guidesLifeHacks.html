@@ -5,22 +5,30 @@
         <title>BATHROOM CLEANING LIFE HACKS</title>
         <link rel="stylesheet" href="styleGuidesArticles.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="scriptGuides.js"></script>
     </head>
 
     <body>
-        <!--NAV -->
-        <nav id="desktop-nav">
+         <!--NAV -->
+       <nav id="desktop-nav">
 
-            <a class="logo" href="../index.html"><img class="logo" src="../images/logo.png"></a>
+            <a class="logo" href="index.html"><img class="logo" src="../images/logo.png"></a>
 
             <div>
                 <ul class="nav-links">
                     <li><a href="../index.html">HOME</a></li>
-                    <li><a href="../about/about.html">ABOUT US</a></li>
+                    <li><a href="../about/about.html">ABOUT&nbsp;US</a></li>
                     <li><a href="../guides/guides.html">GUIDES</a></li>
                     <li><a href="../products/products.html">PRODUCTS</a></li>
                 </ul>
             </div>
+
+            <div class="search-container">
+                <input type="text" id="search-bar" name = "q" placeholder="Search" />
+                <div id="qResults"></div>
+            </div>
+
         </nav>
         <!--NAV -->
 

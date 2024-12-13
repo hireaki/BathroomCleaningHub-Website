@@ -44,13 +44,17 @@ h1{
 }
 
 h2{
-    color: #f9f9f9;
-    font-family: "Glacial";
-    font-size: 1.6rem;
+    color: #5CA4A9;
+    font-family: "Glacial Bold";
+    font-size: 3rem;
     line-height: 1.1;
     letter-spacing: 0.09em;
     font-weight:normal;
     width: fit-content;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1rem;
+    letter-spacing: 0em;
 }
 
 h3{
@@ -83,7 +87,7 @@ button, .button {
   }
 
   p.text1 {
-    color: #37485a;
+    color: #5CA4A9;
     font-size: 1.5rem;
     text-align: left;
     margin: 0 auto;
@@ -103,8 +107,8 @@ button, .button {
     width: 50vw;
     margin: auto;
     border-radius: 4px; 
-    background-color: rgb(242,249,249); 
-    padding: 4vw 3vw; 
+    background-color: #f2f9f9; 
+    padding: 2vw 3vw  4vw 3vw; 
     height: fit-content;
   } 
 
@@ -292,6 +296,79 @@ hr{
     border-color: #b6b6b6;
 }
 
+
+.reco{
+  justify-content: center;
+    width: fit-content;
+    margin: auto;
+    border-radius: 4px; 
+    background-color: #f2f9f9;
+    padding: 1vw 3vw; 
+    height: fit-content;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+.reco a{
+  width:fit-content ;
+}
+
+.guide-container {
+  position: flex;
+  flex-direction: column;
+  background-color: #5CA4A9;
+  border-radius: 20px;
+  width: 75px;
+  height: 160px;
+  padding: 2rem;
+  padding-top: 0;
+  text-align: center;
+  align-items: center;
+}
+
+/* hover */
+.guide-container {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.guide-container:hover {
+  transform: translateY(-20px);
+box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3); 
+}
+
+/* hover */
+
+.space{
+  margin-left: 0.6rem;
+}
+
+.guide-container img {
+  right: 0px;
+  margin-left: -2rem;
+  top: 0px;
+  width: 7.35rem;
+  border-radius: 20px;
+  border: 11.5px solid #ffffff;
+  
+}
+
+.guide-container h2 {
+  top: 12rem;
+  text-align: center;
+  font-size: 0.7rem;
+  color: #f9f9f9;
+  margin-top: .5rem;
+  font-family: "Glacial Bold", sans-serif;
+  letter-spacing: 0em;
+}
+
+.guide-lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
 
 
 .search-container {

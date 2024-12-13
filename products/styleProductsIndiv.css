@@ -63,7 +63,7 @@ body{
 main {
     background-color: #f1f1f1;
     margin: 0 auto;
-    padding: 3.5rem 15vw;
+    padding: 3.5rem 12vw;
     padding-bottom: 10rem;
 }
 
@@ -78,7 +78,7 @@ main {
 .products{
     height: fit-content;
     background-color: #5ca4a9;
-    
+    width: fit-content;
     padding: 1.5rem;
     border-radius: 20px;
     margin-right: 4rem;
@@ -145,7 +145,7 @@ h4{
     font-family: "Glacial", sans-serif;
     color: #318287;
     font-weight: bold;
-    font-size: 1vw;
+    font-size: 0.8vw;
 }
 
 
