@@ -2,8 +2,6 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X UA-compatible" content="IE-edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HOME</title>
         <link rel="stylesheet" href="styleIndex.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -14,14 +12,14 @@
           <!--NAV -->
         <nav id="desktop-nav">
 
-            <a class="logo" href="index.html"><img class="logo" src="images/logo.png"></a>
+            <a class="logo" href="index.html"><img class="logo" src="../philscigroup3website/images/logo.png"></a>
 
             <div>
                 <ul class="nav-links">
                     <li><a href="index.html">HOME</a></li>
-                    <li><a href="about/about.html">ABOUT&nbsp;US</a></li>
-                    <li><a href="guides/guides.html">GUIDES</a></li>
-                    <li><a href="products/products.html">PRODUCTS</a></li>
+                    <li><a href="../philscigroup3website/about/about.html">ABOUT&nbsp;US</a></li>
+                    <li><a href="../philscigroup3website/guides/guides.html">GUIDES</a></li>
+                    <li><a href="../philscigroup3website/products/products.html">PRODUCTS</a></li>
                 </ul>
             </div>
 
@@ -29,25 +27,9 @@
                 <input type="text" id="search-bar" name = "q" placeholder="Search" />
                 <div id="qResults"></div>
             </div>
-        </nav>
-        <nav id="hamburger-nav">
-            <a class="logo" href="index.html"><img class="logo" src="images/logo.png"></a>
-            <div class="hamburger-menu">
-                <div class="hamburger-icon" onclick="toggleMenu()">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <div class="menu-links">
-                    <li><a href="index.html" onclick="toggleMenu()">HOME</a></li> 
-                    <li><a href="about/about.html" onclick="toggleMenu()">ABOUT US</a></li> 
-                    <li><a href="guides/guides.html" onclick="toggleMenu()">GUIDES</a></li> 
-                    <li><a href="products/products.html" onclick="toggleMenu()">PRODUCTS</a></li>
-                 </div>
-             </div>
-         </nav>
-        <!--NAV -->
 
+        </nav>
+        <!--NAV -->
 
         <div class="one">
             <h1>Bathroom<br>Cleaning<br>Made Easier</h1>
@@ -90,41 +72,6 @@
         <div class="three">
             <h1 class="threeText">From Mess To Fresh<br>In No Time</h1>
             <h2 class="threeText">Discover tools that make bathroom cleaning<br>faster and easier than ever.</h2>
-        </div>
-
-
-
-
-
-        <div class="container">
-            <div class="product">
-                <img src="https://via.placeholder.com/150" alt="Product 1">
-                <h5>Product 1</h5>
-                <p>$10.00</p>
-                <button class="add-to-cart-btn" data-name="Product 1" data-price="10.00">Add to Cart</button>
-            </div>
-            <div class="product">
-                <img src="https://via.placeholder.com/150" alt="Product 2">
-                <h5>Product 2</h5>
-                <p>$15.00</p>
-                <button class="add-to-cart-btn" data-name="Product 2" data-price="15.00">Add to Cart</button>
-            </div>
-            <div class="product">
-                <img src="https://via.placeholder.com/150" alt="Product 3">
-                <h5>Product 3</h5>
-                <p>$20.00</p>
-                <button class="add-to-cart-btn" data-name="Product 3" data-price="20.00">Add to Cart</button>
-            </div>
-        </div>
-        
-        
-        <div class="cart-item-container">
-            <div class="cart-header">Your Cart</div>
-            <div class="cart-items"></div>
-            <div class="cart-footer">
-                <span>Total:</span>
-                <span class="cart-total">$0.00</span>
-            </div>
         </div>
 
 

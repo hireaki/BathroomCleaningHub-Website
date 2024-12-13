@@ -39,6 +39,7 @@
     gap: 2vw; 
     font-size: 1.2rem;
     font-family: "Glacial";
+    padding-left: 0;
 }
 
 .nav-links li {

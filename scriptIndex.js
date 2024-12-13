@@ -36,30 +36,6 @@ $(document).ready(function () {
         }
     });
 
-function toggleMenu() {
-    const menu = document.querySelector(".menu-links");
-    const icon = document.querySelector(".hamburger-icon");
-    menu.classList.toggle("open")
-    icon.classList.toggle("open")
-}
-
-    
-
-    $(document).click(function(event) {
-        if (!$(event.target).closest('.search-container').length) {
-           $("#qResults").hide();
-       }
-   });
-
-    $(".search-container").mouseenter(function() {
-        var q = $("input[name=q]").val().toLowerCase();
-        if (q.length > 0) {
-            $("#qResults").show();
-        }
-    });
-
-
-
     let cart = [];
 
         if (localStorage.getItem('cartItems')) {
