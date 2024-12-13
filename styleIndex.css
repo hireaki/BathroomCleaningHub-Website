@@ -79,38 +79,30 @@ button, .button {
   }
 /* nav */
 
-#desktop-nav{
-    padding: 0.2rem;
-    padding-right: 5rem;
-    padding-left: 1.5rem;
+#desktop-nav {
+    padding: 0.2rem 1.5rem;
     display: flex;
+    align-items: center; 
     height: fit-content;
-    min-height: 3vh;
-}
-
-.logo{
-    justify-content: flex-start;
-    height: 4rem;
-    margin-right: auto;
-}
-
-nav, .nav-links {
-    display: flex;
-}
-
-nav {
-    justify-content: flex-end;
-    align-items: center;
-    height: 17vh;
     background-color: #f9f9f9;
     box-shadow: 0 2px 4px 0 #00000033;
 }
 
+.logo {
+    height: 4rem;
+    margin-right: 2vw;
+}
+
 .nav-links {
-    gap: 4rem;
-    list-style:none;
+    display: flex;
+    list-style: none;
+    gap: 2vw; 
     font-size: 1.2rem;
     font-family: "Glacial";
+}
+
+.nav-links li {
+    display: inline; 
 }
 
 a {
@@ -395,4 +387,83 @@ hr{
 
 .hamburger-icon span:first-child {
     transform: none;
+}
+
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    position: relative;
+    left: 2rem; 
+    margin-right: 2rem;
+    width: fit-content;  
+    
+    
+    z-index: 1;
+}
+
+#search-bar {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-family: "Glacial";
+    border: 3px solid #5CA4A9;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
+    width: 15rem;  
+}
+
+
+#search-bar:focus {
+    border-color: #f6ae4e;
+    box-shadow: 0 0 5px #f6ae4e80;
+}
+
+#cart-img{
+    height: 1.8rem;
+    margin-top: 0.3rem;
+    align-self: center;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    z-index: 100;
+}
+#cart-img:hover {
+    box-shadow: 0 0 5px #ffffff51;
+}
+
+#qResults {
+    background-color: #f9f9f9;
+    display: none;
+    position: absolute;  
+    top: 100%;  
+    left: 0;  
+    width: 17rem;  
+    max-height: fit-content; 
+    overflow-y: hidden; 
+    overflow-x: hidden; 
+    z-index: 10; 
+    
+}
+
+#qResults > a {
+    border-bottom: 1px solid #dddddd;
+    display: block;
+    font-family: "Glacial";
+    font-size: 15px;
+    font-weight: bold;
+    height: fit-content;
+    line-height: 40px;
+    padding-left: 10px;
+    text-decoration: block;
+    transition: all 0.2s linear 0s;
+    width: 100%; 
+    margin-left: auto;
+}
+
+#qResults > a:hover {
+    background-color: #5CA4A9;
+    color: #f9f9f9;
 }

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HOME</title>
         <link rel="stylesheet" href="styleIndex.css">
-        <link rel="stylesheet" href="mediaqueries.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="scriptIndex.js"></script>
     </head>
     <body>
@@ -19,10 +19,15 @@
             <div>
                 <ul class="nav-links">
                     <li><a href="index.html">HOME</a></li>
-                    <li><a href="about/about.html">ABOUT US</a></li>
+                    <li><a href="about/about.html">ABOUT&nbsp;US</a></li>
                     <li><a href="guides/guides.html">GUIDES</a></li>
                     <li><a href="products/products.html">PRODUCTS</a></li>
                 </ul>
+            </div>
+
+            <div class="search-container">
+                <input type="text" id="search-bar" name = "q" placeholder="Search" />
+                <div id="qResults"></div>
             </div>
         </nav>
         <nav id="hamburger-nav">
@@ -85,6 +90,41 @@
         <div class="three">
             <h1 class="threeText">From Mess To Fresh<br>In No Time</h1>
             <h2 class="threeText">Discover tools that make bathroom cleaning<br>faster and easier than ever.</h2>
+        </div>
+
+
+
+
+
+        <div class="container">
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Product 1">
+                <h5>Product 1</h5>
+                <p>$10.00</p>
+                <button class="add-to-cart-btn" data-name="Product 1" data-price="10.00">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Product 2">
+                <h5>Product 2</h5>
+                <p>$15.00</p>
+                <button class="add-to-cart-btn" data-name="Product 2" data-price="15.00">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Product 3">
+                <h5>Product 3</h5>
+                <p>$20.00</p>
+                <button class="add-to-cart-btn" data-name="Product 3" data-price="20.00">Add to Cart</button>
+            </div>
+        </div>
+        
+        
+        <div class="cart-item-container">
+            <div class="cart-header">Your Cart</div>
+            <div class="cart-items"></div>
+            <div class="cart-footer">
+                <span>Total:</span>
+                <span class="cart-total">$0.00</span>
+            </div>
         </div>
 
 
