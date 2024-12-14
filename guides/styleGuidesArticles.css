@@ -89,6 +89,7 @@ button, .button {
   p.text1 {
     color: #5CA4A9;
     font-size: 1.5rem;
+    font-size: 1.3vw;
     text-align: left;
     margin: 0 auto;
     max-width: 600px
@@ -97,6 +98,8 @@ button, .button {
   p.citation {
     color: #37485a;
     font-size: 1rem;
+    color: #37485abd;
+    font-size: 1vw;
     text-align: left;
     margin: 0 auto;
     max-width: 600px
@@ -105,10 +108,12 @@ button, .button {
   .one {
     justify-content: center;
     width: 50vw;
+    width: fit-content;
     margin: auto;
     border-radius: 4px; 
     background-color: #f2f9f9; 
     padding: 2vw 3vw  4vw 3vw; 
+    padding: 2vw 1vw  4vw 1vw; 
     height: fit-content;
   } 
 
@@ -298,6 +303,7 @@ hr{
 .reco{
   justify-content: center;
     width: fit-content;
+    max-width: 70vw;
     margin: auto;
     border-radius: 4px; 
     background-color: #f2f9f9;
@@ -328,11 +334,12 @@ hr{
 .guide-container {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px #00000029; 
 }
-
 .guide-container:hover {
   transform: translateY(-20px);
 box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3); 
+box-shadow: 0 15px 15px #00000029; 
 }
 
 /* hover */
@@ -446,3 +453,6 @@ box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
   color: #f9f9f9;
 }
 
+.pad{
+  padding: 1rem;
+}
