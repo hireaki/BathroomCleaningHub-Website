@@ -449,3 +449,8 @@ box-shadow: 0 15px 15px #00000029;
 .pad{
   padding: 1rem;
 }
+
+.width{
+  width: 50rem;
+  margin: auto;
+}
